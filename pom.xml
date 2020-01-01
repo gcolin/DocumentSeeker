@@ -11,6 +11,12 @@
 		<lucene.version>8.3.1</lucene.version>
 		<logback.version>1.2.3</logback.version>
 	</properties>
+	<scm>
+		<connection>scm:git:git@github.com:gcolin/DocumentSeeker.git</connection>
+		<developerConnection>scm:git:git@github.com:gcolin/DocumentSeeker.git</developerConnection>
+		<url>git@github.com:gcolin/DocumentSeeker.git</url>
+		<tag>HEAD</tag>
+	</scm>
 	<licenses>
 		<license>
 			<name>The Apache Software License, Version 2.0</name>

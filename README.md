@@ -46,7 +46,7 @@ If you use a Linux with KDE desktop such as Kubuntu, you can also install
 ## How to build it in Windows
 
 First you need some app installed:
-* Java 11 jdk
+* Java 11 jdk or Java 8 jdk
 * Maven
 * Ant
 * Visual Studio C++ Community 2019
@@ -68,7 +68,7 @@ It produces *target/docseeker.zip* and *target/DocumentSeeker.exe*
 ## How to build it in Linux (Ubuntu)
 
 First you need some app installed:
-* Java 11 jdk (openjdk-11-jdk)
+* Java 11 jdk (openjdk-11-jdk) or Java 8 jdk
 * Maven
 * Ant
 
