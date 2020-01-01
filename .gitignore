@@ -1,0 +1,11 @@
+.project
+.classpath
+.settings/
+target/
+
+Debug/
+Release/
+.vs/
+
+lucene/
+settings.json

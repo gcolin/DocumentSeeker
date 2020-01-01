@@ -1,0 +1,133 @@
+This project includes:
+  icon from Noto Emoji under Apache License, Version 2.0
+  "Java Concurrency in Practice" book annotations under Creative Commons Attribution License
+  Animal Sniffer Annotations under MIT license
+  Apache Commons Codec under Apache License, Version 2.0
+  Apache Commons Collections under Apache License, Version 2.0
+  Apache Commons Compress under Apache License, Version 2.0
+  Apache Commons CSV under Apache License, Version 2.0
+  Apache Commons Exec under Apache License, Version 2.0
+  Apache Commons IO under Apache License, Version 2.0
+  Apache Commons Lang under Apache License, Version 2.0
+  Apache Commons Math under Apache License, Version 2.0
+  Apache CXF Core under Apache License, Version 2.0
+  Apache CXF JAX-RS Client under Apache License, Version 2.0
+  Apache CXF Runtime HTTP Transport under Apache License, Version 2.0
+  Apache CXF Runtime JAX-RS Frontend under Apache License, Version 2.0
+  Apache CXF Runtime Security functionality under Apache License, Version 2.0
+  Apache FontBox under Apache License, Version 2.0
+  Apache HttpClient under Apache License, Version 2.0
+  Apache HttpClient Mime under Apache License, Version 2.0
+  Apache HttpCore under Apache License, Version 2.0
+  Apache James :: Mime4j :: Core under Apache License, Version 2.0
+  Apache James :: Mime4j :: DOM under Apache License, Version 2.0
+  Apache JempBox under Apache License, Version 2.0
+  Apache OpenNLP Tools under Apache License, Version 2.0
+  Apache PDFBox under Apache License, Version 2.0
+  Apache PDFBox tools under Apache License, Version 2.0
+  Apache POI under Apache License, Version 2.0
+  Apache SIS common storage under Apache License, Version 2.0
+  Apache SIS features under Apache License, Version 2.0
+  Apache SIS metadata under Apache License, Version 2.0
+  Apache SIS netCDF storage under Apache License, Version 2.0
+  Apache SIS referencing under Apache License, Version 2.0
+  Apache SIS utilities under Apache License, Version 2.0
+  Apache Tika core under Apache License, Version 2.0
+  Apache Tika parsers under Apache License, Version 2.0
+  Apache Tika plugin for Ogg, Vorbis and FLAC under The Apache Software License, Version 2.0
+  asm under BSD-3-Clause
+  Boilerpipe -- Boilerplate Removal and Fulltext Extraction from HTML pages under Apache License 2.0
+  Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs under Bouncy Castle Licence
+  Bouncy Castle Provider under Bouncy Castle Licence
+  Bouncy Castle S/MIME API under Bouncy Castle Licence
+  c3p0 under GNU Lesser General Public License, Version 2.1 or Eclipse Public License, Version 1.0
+  CDM core library under (MIT-style) netCDF C library license
+  Checker Qual under The MIT License
+  com.drewnoakes:metadata-extractor under The Apache Software License, Version 2.0
+  curvesapi under BSD License
+  docseeker under The Apache Software License, Version 2.0
+  Ehcache Core under The Apache Software License, Version 2.0
+  error-prone annotations under Apache 2.0
+  Extended StAX API under Eclipse Distribution License - v 1.0
+  fastinfoset under Apache License, Version 2.0 or Eclipse Distribution License - v 1.0
+  FindBugs-jsr305 under The Apache Software License, Version 2.0
+  FlatLaf under The Apache License, Version 2.0
+  GeoAPI under OGC copyright
+  GRIB IOSP and Feature Collection under (MIT-style) netCDF C library license
+  Gson under Apache 2.0
+  Guava InternalFutureFailureAccess and InternalFutures under The Apache Software License, Version 2.0
+  Guava ListenableFuture only under The Apache Software License, Version 2.0
+  Guava: Google Core Libraries for Java under Apache License, Version 2.0
+  Hamcrest Core under New BSD License
+  HikariCP under The Apache Software License, Version 2.0
+  HttpClient Wrappers under (MIT-style) netCDF C library license
+  ISO Parser under Apache Software License - Version 2.0
+  istack common utility code runtime under Eclipse Distribution License - v 1.0
+  Itadaki jbzip2 under MIT License (MIT)
+  J2ObjC Annotations under The Apache Software License, Version 2.0
+  Jackcess under Apache License, Version 2.0
+  Jackcess Encrypt under Apache License, Version 2.0
+  Jackson-annotations under The Apache Software License, Version 2.0
+  Jackson-core under The Apache Software License, Version 2.0
+  jackson-databind under The Apache Software License, Version 2.0
+  JacORB OMG-API under GNU Lesser General Public License
+  jakarta.xml.bind-api under Eclipse Distribution License - v 1.0
+  Java Advanced Imaging Image I/O Tools API core (standalone) under BSD 3-clause License w/nuclear disclaimer
+  Java Native Access under LGPL, version 2.1 or Apache License v2.0
+  Java RMI API under lgpl
+  Java UnRar under UnRar License
+  java-libpst under The Apache Software License, Version 2.0
+  JavaBeans Activation Framework under EDL 1.0
+  javax.annotation API under CDDL + GPLv2 with classpath exception
+  javax.ws.rs-api under EPL 2.0 or GPL2 w/ CPE
+  javax.xml.soap API under CDDL + GPLv2 with classpath exception
+  JAX-WS API under CDDL + GPLv2 with classpath exception
+  JAXB Runtime under Eclipse Distribution License - v 1.0
+  JCL 1.2 implemented over SLF4J under MIT License
+  JCommander under The Apache Software License, Version 2.0
+  JDOM under Similar to Apache License but with the acknowledgment clause removed
+  JHighlight under CDDL, v1.0 or LGPL, v2.1 or later
+  JMatIO under BSD
+  Joda time under Apache 2
+  JPEG2000 support for Java Advanced Imaging Image I/O Tools API under JJ2000 or BSD 3-clause License w/nuclear disclaimer
+  JSON.simple under The Apache Software License, Version 2.0
+  jsoup Java HTML Parser under The MIT License
+  JTA 1.1 under The Apache Software License, Version 2.0
+  JUL to SLF4J bridge under MIT License
+  JUnit under Eclipse Public License 1.0
+  juniversalchardet under Mozilla Public License 1.1 (MPL 1.1)
+  Logback Classic Module under Eclipse Public License - v 1.0 or GNU Lesser General Public License
+  Logback Core Module under Eclipse Public License - v 1.0 or GNU Lesser General Public License
+  Lucene Core under Apache 2
+  Lucene Queries under Apache 2
+  Lucene QueryParsers under Apache 2
+  Lucene Sandbox under Apache 2
+  mchange-commons-java under GNU Lesser General Public License, Version 2.1 or Eclipse Public License, Version 1.0
+  MIME streaming extension under CDDL 1.1 or GPL2 w/ CPE
+  netCDF-4 IOSP JNI connection to C library under (MIT-style) netCDF C library license
+  Ogg and Vorbis for Java, Core under The Apache Software License, Version 2.0
+  Open JSON under The Apache Software License, Version 2.0
+  org.brotli:dec under MIT License
+  parso under Apache License v2
+  PDFBox JBIG2 ImageIO plugin under Apache License, Version 2.0
+  Protocol Buffers [Core] under 3-Clause BSD License
+  quartz under The Apache Software License, Version 2.0
+  rome under The Apache Software License, Version 2.0
+  rome-utils under The Apache Software License, Version 2.0
+  saaj-impl under Dual license consisting of the CDDL v1.1 and GPL v2
+  SentimentAnalysisParser under The Apache License, Version 2.0
+  SLF4J API Module under MIT License
+  Stax2 API under The BSD License
+  TagSoup under Apache License 2.0
+  TXW2 Runtime under Eclipse Distribution License - v 1.0
+  udunits under (MIT-style) netCDF C library license
+  Units of Measurement API under BSD
+  Web Services Metadata 2.0 under The Apache Software License, Version 2.0
+  Woodstox under The Apache License, Version 2.0
+  Xerces2-j under The Apache Software License, Version 2.0
+  XML Commons External Components XML APIs under The Apache Software License, Version 2.0 or The SAX License or The W3C License
+  XmlBeans under The Apache Software License, Version 2.0
+  XmlSchema Core under The Apache Software License, Version 2.0
+  XMP Library for Java under The BSD License
+  XZ for Java under Public Domain
+

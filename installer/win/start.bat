@@ -1,0 +1,1 @@
+%cd%/jre/bin/java.exe -jar docseeker.jar

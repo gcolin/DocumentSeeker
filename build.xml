@@ -1,0 +1,73 @@
+<project name="docseeker" default="dist-windows">
+
+	<property environment="env"/>
+	<property location="C:/Program Files (x86)/Inno Setup 6/ISCC.exe" name="innocompiler"/>
+	<property location="${basedir}/installer/win/inno.iss" name="iss"/>
+	<property location="${basedir}/target" name="issout"/>
+
+	<condition property="isWindows">
+		<os family="windows"/>
+	</condition>
+
+	<target name="inno-setup" if="isWindows">
+		<exec executable="${innocompiler}" dir="${basedir}">
+			<arg value="/O&quot;${issout}&quot;"/>
+			<arg value="/F&quot;DocumentSeeker&quot;"/>
+			<arg value="${iss}"/>
+		</exec>
+	</target>
+
+	<target name="prepare-windows" if="isWindows">
+		<exec dir="${basedir}" executable="cmd">
+			<arg value="/C"/>
+			<arg value="mvn"/>
+			<arg line="clean package dependency:copy-dependencies" />
+		</exec>
+		<exec dir="${basedir}/target" executable="cmd">
+			<arg value="/C"/>
+			<arg value="${env.JAVA_HOME}\bin\jlink.exe"/>
+			<arg line="--add-modules java.base,java.xml,java.desktop,java.sql,java.logging,java.management,java.naming --output jre" />
+		</exec>
+	</target>
+
+	<target name="prepare-linux" unless="isWindows">
+		<exec dir="${basedir}" executable="sh">
+			<arg line="-c 'mvn clean package dependency:copy-dependencies'" />
+		</exec>
+	</target>
+
+	<target name="rename-jar" depends="prepare-windows,prepare-linux">
+		<copy todir="${basedir}/target/lib" flatten="true">
+			<mapper type="regexp" from="(.*)-[^-]*(\.jar)" to="docseeker.jar" />
+			<fileset dir="${basedir}/target">
+				<include name="*.jar" />
+				<type type="file" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="dist-portable-win" depends="rename-jar" if="isWindows">
+
+
+		<zip destfile="${basedir}/target/docseeker.zip">
+			<zipfileset dir="${basedir}/target/dependency" prefix="dependency/"/>
+			<zipfileset dir="${basedir}/target/jre" prefix="jre/"/>
+			<file file="${basedir}/target/lib/docseeker.jar"/>
+			<file file="./installer/win/start.bat"/>
+			<file file="./startexe/Release/start.exe"/>
+			<zipfileset dir="./tesseract/win" prefix="tesseract/"/>
+		</zip>
+	</target>
+
+	<target name="dist-portable-linux" depends="rename-jar" unless="isWindows">
+		<zip destfile="${basedir}/target/docseeker.zip">
+			<zipfileset dir="${basedir}/target/dependency" prefix="dependency/"/>
+			<file file="${basedir}/target/lib/docseeker.jar"/>
+			<file file="./installer/linux/start.sh"/>
+		</zip>
+	</target>
+
+	<target name="dist-windows" depends="dist-portable-win,dist-portable-linux,inno-setup">
+	</target>
+
+</project>
