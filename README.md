@@ -19,14 +19,14 @@ How it works
 ### Windows 10
 
 There are 2 versions:
-* the installer version
-* the portable version
+* the [installer version](https://github.com/gcolin/DocumentSeeker/releases/download/docseeker-1.0/DocumentSeeker-1.0.exe)
+* the [portable version](https://github.com/gcolin/DocumentSeeker/releases/download/docseeker-1.0/docseeker-1.0-Windows.zip)
 
 All is included nothing to install.
 
 ### Linux
 
-It works on Linux but you need to install things.
+It works on Linux but you need to install things. Here the [binary](https://github.com/gcolin/DocumentSeeker/releases/download/docseeker-1.0/docseeker-1.0-Linux.zip).
 
 Here the commands for Ubuntu,
 
