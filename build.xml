@@ -26,7 +26,7 @@
 		<exec dir="${basedir}/target" executable="cmd">
 			<arg value="/C"/>
 			<arg value="${env.JAVA_HOME}\bin\jlink.exe"/>
-			<arg line="--add-modules java.base,java.xml,java.desktop,java.sql,java.logging,java.management,java.naming --output jre" />
+			<arg line="--add-modules java.base,java.xml,java.desktop,java.sql,java.logging,java.management,java.naming,jdk.charsets --output jre" />
 		</exec>
 	</target>
 
